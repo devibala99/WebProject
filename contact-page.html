@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        .query-img{
+            border: 1px solid black;
+            height: 650px;
+            width: 49%;
+            background-image: url(./colorStructure.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .query{
+            border: 1px solid black;
+            height: 650px;
+            width: 49%;
+            margin-left: 49.5%;
+            margin-top: -650px;
+            background-color: #fffaf6;
+        }
+        #label{
+            margin-left: 40px;
+            padding: 12px;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        #inputs{
+            padding: 6px;
+            margin-left: 150px;
+        }
+        button{
+            margin-left: 630px;
+        }
+        h2{
+            margin-left: 18px;
+            text-decoration-line: underline;
+        }
+        h1{
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            background-color: black;
+            color: aliceblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Contact</h1>
+    <div class="query-img">
+        <address
+        style="margin-left: 460px;
+        margin-right: 10px;
+        margin-top: 480px;
+        ">
+            38/2, K2 Designs, <br>
+            1st cross road, KK nagar,<br>
+            Chennai - 600023.
+            <br> <br>
+            Call on: 044-212-879-632
+            Mail to: k2designsarc@gmail.org"
+        </address>
+
+    </div>
+    <div class="query">
+        <h2>Query form</h2>
+        <form >
+            <label id="label">Name:&emsp;&nbsp;</label>
+            <input id="inputs" type="text" placeholder="Enter name" required> <br>
+            <br>
+            <label id="label">Phone no: </label>
+            <input id="inputs" type="tel" placeholder="Enter mobile number" required> <br>
+            <br>
+            <label id="label"> Query:&emsp; </label>
+            <textarea id="inputs" name="area" row="8" cols="50">
+                Enter your message / query.
+            </textarea>
+            <br><br>
+            <button type="button">Submit</button>
+        </form>
+        <hr>
+        <h2>Work with us</h2>
+        <form>
+            <label id="label">Name:&emsp;&nbsp;</label>
+            <input id="inputs" type="text" placeholder="Enter name" required> <br>
+            <br>
+            <label id="label">E-mail:&emsp;</label>
+            <input id="inputs" type="email" placeholder="Enter email id"> <br>
+            <br>
+            <label id="label">Phone no: </label>
+            <input id="inputs" type="tel" placeholder="Enter mobile number" required> <br>
+            <br>
+            <label id="label">Qualification: &emsp;&emsp;&emsp;
+                &emsp;&emsp;&nbsp;&nbsp;
+            </label>
+            <select>
+                <option value="b.arch">B.Arch</option>
+                <option value="b.plan">B.Plan</option>
+                <option value="b.e">B.E(Civil)</option>
+                <option value="b.tech">B.Tech(Civil)</option>
+            </select><br><br>
+            <label id="label">Tools known: &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+            <input type="checkbox"><label>AutoCAD</label>
+            &emsp; <input type="checkbox"><label>SketchUp</label>
+            &emsp; <input type="checkbox"><label>V-ray</label>
+            <br><br>
+            <label id="label">Upload resume: &emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="file"><br><br>
+            <button type="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
